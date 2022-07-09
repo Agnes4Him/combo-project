@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div id="container">
+        <section id="time-display">
+            <div id="time"></div>
+        </section>
+        <section id="timer-display">
+            <div id="timer">
+                <p id="watch"><span id="hourSupport">0</span><span id="hour">0</span>:<span id="minSupport">0</span><span id="minute">0</span>:<span id="secSupport">0</span><span id="second">0</span></p>
+                <div id="buttons">
+                    <button id="reset">Reset</button>
+                    <button id="control">Start</button>
+                </div>
+            </div>
+        </section> 
+        <section id="calc-display">
+            <div id="display"></div>
+        </section>
+        <hr id="divide-line">
+        <section id="calc-main">
+            <div id="row-one" class="row">
+                <div class="symbol clear">C</div>
+                <div class="symbol arrow"><=</div>
+                <div class="symbol on">On</div>
+                <div class="symbol off">Off</div>
+            </div>
+            <div id="row-two" class="row">
+                <div class="number numop">7</div>
+                <div class="number numop">8</div>
+                <div class="number numop">9</div>
+                <div class="operator numop">+</div>
+            </div>
+            <div id="row-three" class="row">
+                <div class="number numop">4</div>
+                <div class="number numop">5</div>
+                <div class="number numop">6</div>
+                <div class="operator numop">-</div>
+            </div>
+            <div id="row-four" class="row">
+                <div class="number numop">1</div>
+                <div class="number numop">2</div>
+                <div class="number numop">3</div>
+                <div class="operator numop">*</div>
+            </div>
+            <div id="row-five" class="row">
+                <div class="number numop">0</div>
+                <div class="number numop">.</div>
+                <div class="equal">=</div>
+                <div class="operator numop">/</div>
+            </div>
+        </section>
+    </div> 
+    <script src="index.js"></script>
+</body>
+</html>
