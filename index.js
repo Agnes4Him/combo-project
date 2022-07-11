@@ -1,5 +1,7 @@
 //Start of time piece logic
 
+alert(window.innerWidth)
+
 const doubleSegment = (segment) => {
     if (segment < 10) {
         segment = "0" + segment
@@ -163,17 +165,6 @@ numOp.forEach((eachnumOp) => {
         }    
     })
 })
-
-//operation.forEach((eachOperation) => {
-    //eachOperation.addEventListener('click', () => {
-        //if (display.innerHTML == "0") {
-            //display.innerHTML = ""
-            //display.innerHTML += eachOperation.innerHTML
-        //}else {
-            //display.innerHTML += eachOperation.innerHTML
-        //}
-    //})
-//})
 
 equal.addEventListener('click', () => {
     display.innerHTML = eval(display.innerHTML)

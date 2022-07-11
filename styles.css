@@ -16,7 +16,6 @@ body {
 #container {
     background-color:black;
     width:23vw;
-    /*height:70vh;*/
     height:90vh;
     border-radius:6px;
     box-shadow:4px 4px 4px lavender;
@@ -173,26 +172,30 @@ body {
     color:white;
 }
 
-@media only screen and (max-width: 992px) {
-    #calc-container {
-        width:35vw;
-    }
 
-    #display {
-        display:flex;
-        flex-direction:column;
-        justify-content:end;
-    }
+@media only screen and (max-width: 992px) {
+    #container {
+        width:30vw;
+    }   
+}
+
+@media only screen and (max-width: 800px) {
+    #container {
+        width:40vw;
+    }   
 }
 
 @media only screen and (max-width: 600px) {
-    #calc-container {
-        width:63vw;
-    }
-    
-    #display {
-        display:flex;
-        flex-direction:column;
-        justify-content:end;
-    }
+    #container {
+        width:50vw;
+    }   
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+    #container {
+        width:60vw;
+    }   
 }
