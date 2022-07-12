@@ -1,7 +1,5 @@
 //Start of time piece logic
 
-alert(window.innerWidth)
-
 const doubleSegment = (segment) => {
     if (segment < 10) {
         segment = "0" + segment
