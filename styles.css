@@ -15,7 +15,7 @@ body {
 
 #container {
     background-color:black;
-    width:23vw;
+    width:21vw;
     height:90vh;
     border-radius:6px;
     box-shadow:4px 4px 4px lavender;
@@ -172,30 +172,23 @@ body {
     color:white;
 }
 
-
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width:1024px) {
     #container {
         width:30vw;
     }   
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width:768px) {
     #container {
         width:40vw;
     }   
 }
 
-@media only screen and (max-width: 600px) {
-    #container {
-        width:50vw;
-    }   
-}
 
-
-
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width:480px) {
     #container {
         width:60vw;
     }   
 }
+
+
