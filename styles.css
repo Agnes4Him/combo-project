@@ -18,7 +18,7 @@ body {
     width:21vw;
     height:90vh;
     border-radius:6px;
-    box-shadow:4px 4px 4px lavender;
+    box-shadow:1px 1px 4px lavender;
 }
 #time-display {
     width:100%;
@@ -157,9 +157,18 @@ body {
     color:white
 }
 
+.equal:hover {
+    background-color: #f8a24d;
+}
+
 .number {
     background-color:white;
-    color:#333
+    color:#333;
+}
+
+.number:hover {
+    background-color:transparent;
+    color:white;
 }
 
 .operator {
@@ -167,9 +176,17 @@ body {
     color:white;
 }
 
+.operator:hover {
+    background-color:#d36df0;
+}
+
 .symbol {
     background-color:#7A4988;
     color:white;
+}
+
+.symbol:hover {
+    background-color:#A32CC4;
 }
 
 @media only screen and (max-width:1024px) {
@@ -185,7 +202,7 @@ body {
 }
 
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:500px) {
     #container {
         width:60vw;
     }   
